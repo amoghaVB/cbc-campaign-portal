@@ -1,8 +1,46 @@
 <!doctype html>
-<html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
-<meta name="robots" content="noindex,nofollow,noarchive"/><meta name="referrer" content="no-referrer"/>
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; frame-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests"/>
-<meta name="description" content="Campaign documentation provided by Adonmo Private Limited for the Central Bureau of Communication."/>
-<title>Campaign Documentation | Central Bureau of Communication</title>  <script type="module" crossorigin src="./assets/index-DsJkpDjT.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-axTXNa78.css">
-</head><body><div id="root"></div></body></html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; frame-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests">
+  <meta name="description" content="Campaign documentation provided by Adonmo Private Limited for the Central Bureau of Communication.">
+  <title>Campaign Documentation | Central Bureau of Communication</title>
+  <link rel="icon" type="image/png" href="./adonmo-logo.png">
+  <script type="module" crossorigin src="./assets/index-ByJ-mP1g.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-DsfBFqGe.css">
+</head>
+<body>
+  <main id="access-screen" class="access-screen">
+    <section class="access-card" aria-labelledby="access-title">
+      <img class="access-logo" src="./adonmo-logo.png" alt="Adonmo" width="151" height="32">
+      <p class="eyebrow">Central Bureau of Communication</p>
+      <h1 id="access-title">Campaign Documentation</h1>
+      <p>Release orders, campaign evidence and billing documents provided by Adonmo Private Limited.</p>
+      <div class="access-badge">CBC review team · Secure access</div>
+      <p id="lock-notice" class="security-note" role="status" hidden></p>
+      <form id="access-form">
+        <label class="access-field" for="access-code">Access code</label>
+        <div class="access-input-wrap">
+          <input id="access-code" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" maxlength="256" placeholder="Enter your access code" aria-describedby="access-help access-error" required>
+          <button id="toggle-code" class="icon-button" type="button" aria-label="Show access code" disabled>
+            <svg id="show-code-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.6-6 10-6 10 6 10 6-3.6 6-10 6-10-6-10-6Z"/><circle cx="12" cy="12" r="2.5"/></svg>
+            <svg id="hide-code-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" hidden><path d="m3 3 18 18M10 6.2A13 13 0 0 1 12 6c6.4 0 10 6 10 6a18 18 0 0 1-2.5 3M6 7.8A16 16 0 0 0 2 12s3.6 6 10 6a12 12 0 0 0 4.2-.8"/></svg>
+          </button>
+        </div>
+        <p id="access-help" class="access-help">Use the access code supplied by Adonmo.</p>
+        <p id="access-error" class="access-error" role="alert" hidden></p>
+        <button id="open-workspace" class="access-submit button primary" type="submit" disabled>
+          <span id="open-label">Open workspace</span>
+          <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4m-4 4v2"/></svg>
+        </button>
+      </form>
+      <noscript><p>Enable JavaScript in your browser to open the workspace.</p></noscript>
+      <p class="access-footer">For authorised review by the Central Bureau of Communication.<br>Provided by Adonmo Private Limited.</p>
+    </section>
+  </main>
+  <div id="workspace" hidden></div>
+</body>
+</html>
